@@ -28,3 +28,224 @@ body{
     background-color: var(--pale-blue);
     font-family: 'Hanken Grotesk', sans-serif;
 }
+
+.card__container {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 736px;
+    height: 512px;
+    position: relative;
+    top: 2.5rem;
+    border-radius: 25px;
+}
+
+.card__row {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* left r styles */
+.left-rectangle{
+    background-color: var(--cobalt-blue);
+    width: 368px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    border-radius: 25px;
+    position: relative;
+    right: 120px;
+}
+
+.left-rectangle h1{
+    color: var(--white);
+    text-align: center;
+    font-family: Hanken Grotesk;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px;
+}
+
+.left-rectangle h3{
+    color: var(--white);
+    text-align: center;    
+    font-family: Hanken Grotesk;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: 8rem;
+}
+
+.left-rectangle h4{
+    font-size: 25px;
+    text-align: center;
+    color: var(--light-lavender);
+}
+
+.left-rectangle span{
+    text-align: center;
+    font-size: 18px;
+    color: var(--light-blue, #CAC9FF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body (Bold) */
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.left-rectangle p{
+    text-align: center;
+    font-size: 18px;
+    color: var(--light-blue, #CAC9FF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body (Bold) */
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.left-rectangle p:nth-child(2){
+    position: relative;
+    top: 12rem;
+}
+
+.circle__results{
+    background-color: #FFB21E;
+    opacity: 3.4;
+    width: 200px;
+    height: 200px;
+}
+
+.circle__results span{
+    width: 200px;
+    height: 200px;
+    
+}
+/* left r styles */
+
+/* right r styles */
+.right-rectangle h4{
+    text-align: left;
+}
+
+.scores__box {
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 15px;
+}
+
+.scores__box img{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.scores__box h4{
+    position: relative;
+    right: 48px;
+}
+
+.reaction {
+    background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+}
+
+.reaction h4{
+    color: var(--light-red);
+}
+
+.reaction span{
+    color: var(--dark-gray-blue);
+}
+
+.memory {
+    background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+}
+
+.memory h4{
+    color: var(--orange-yellow);
+}
+
+.memory span{
+        color: var(--dark-gray-blue);
+}
+
+.verbal {
+    background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
+}
+
+.verbal h4{
+    color: var(--green-teal)
+}
+
+.verbal span{
+    color: var(--dark-gray-blue);;
+}
+
+.visual {
+    background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+}
+
+.visual h4{
+    color: var(--cobalt-blue);
+}
+
+.visual span{
+    color: var(--dark-gray-blue);
+}
+
+.btn__C {
+    background-color: var(--dark-gray-blue);
+    color: var(--white);
+    text-decoration: none;
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    border-radius: 128px;
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn__C:hover{
+    background: linear-gradient(var(--light-slate-blue-background),var(--light-royale-blue-background));
+}
+/* right r styles */
+
+@media (max-width: 768px) {
+    .card__container{
+        width: 375px;
+        height: 809px;
+        max-width: 100%;
+    }
+
+    .card__row{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 0;
+    }
+
+    .left-rectangle{
+        width: 375px;
+        height: 356px;
+        max-width: 100%;
+        position: relative;
+        left: 0.01rem;
+    }
+}
