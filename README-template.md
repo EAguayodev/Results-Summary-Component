@@ -90,10 +90,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [w3schools](https://www.w3schools.com/css/default.asp) - This resource helped me get a refresher on the basics of using css styles regarding to applying the styles to my container and main tags.This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- []() - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [w3schools](https://www.w3schools.com/css/default.asp) - This resource helped me get a refresher on the basics of using css styles regarding to applying the styles to my container and main tags. This resource also helped when needing to refresh myself on using linear-gradient colors for the details on the left side of the card.
+- [github documentation]() - Github docs helped me understand and learn to fix SSH permissions denied when pushing my first commit to my new intialized repo for the challenge.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 

@@ -56,7 +56,7 @@ body{
     padding: 2rem 3rem;
     border-radius: 25px;
     position: relative;
-    right: 120px;
+    right: 39px;
 }
 
 .left-rectangle h1{
@@ -66,7 +66,7 @@ body{
     font-size: 72px;
     font-style: normal;
     font-weight: 800;
-    line-height: 72px;
+    /* line-height: 72px; */
 }
 
 .left-rectangle h3{
@@ -78,7 +78,7 @@ body{
     font-weight: 700;
     line-height: normal;
     position: relative;
-    top: 8rem;
+    top: 0rem;
 }
 
 .left-rectangle h4{
@@ -111,28 +111,31 @@ body{
     font-weight: 700;
 }
 
-.left-rectangle p:nth-child(2){
+.left-rectangle p:nth-child(1){
     position: relative;
-    top: 12rem;
+    top: 3rem;
 }
 
-.circle__results{
-    background-color: #FFB21E;
-    opacity: 3.4;
+.results__circle{
+    background: linear-gradient(var(--persian-blue-circle),var(--violet-blue-circle));
+    border-radius: 50%;
+    opacity: 1.4;
     width: 200px;
     height: 200px;
+    margin: 2rem 2rem;
 }
 
-.circle__results span{
-    width: 200px;
-    height: 200px;
-    
+.results__circle p{
+    color: var(--light-blue);
 }
+
 /* left r styles */
 
 /* right r styles */
-.right-rectangle h4{
-    text-align: left;
+.right-rectangle, h4:nth-child(1){
+    position: relative;
+    top: 1rem;
+    font-size: 24px;
 }
 
 .scores__box {
@@ -153,8 +156,9 @@ body{
 }
 
 .scores__box h4{
+    font-size: 18px;
     position: relative;
-    right: 48px;
+    right: 30px;
 }
 
 .reaction {
@@ -186,11 +190,11 @@ body{
 }
 
 .verbal h4{
-    color: var(--green-teal)
+    color: var(--green-teal);
 }
 
 .verbal span{
-    color: var(--dark-gray-blue);;
+    color: var(--dark-gray-blue);
 }
 
 .visual {
@@ -241,11 +245,28 @@ body{
         right: 0;
     }
 
+    .results__circle{
+        width: 140px;
+        height: 140px;
+    }
+
+    .results__circle p{
+        font-size: 16px;
+    }
+
     .left-rectangle{
         width: 375px;
         height: 356px;
         max-width: 100%;
         position: relative;
         left: 0.01rem;
+    }
+
+    .left-rectangle h1{
+        font-size: 56px;
+    }
+
+    .left-rectangle p{
+        font-size: 16px;
     }
 }
