@@ -53,10 +53,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS 
 - Flexbox
 - JSON
-- Desktop-first workflow
+- Desktop-first workflow to mobile
 - [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
+
+I learned at the end when debugging my code, a great way to debug and remove the horizontal scroll on mobile is using the outline inside the universal selector bracket inside your css, and putting a border at 1px solid [color] to find which area is overlapping.
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
@@ -66,8 +68,8 @@ To see how you can add code snippets, see below:
 <h1>Some HTML code I'm proud of</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+* {
+  outline: 1px solid red;
 }
 ```
 ```js

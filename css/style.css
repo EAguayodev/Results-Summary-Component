@@ -132,8 +132,9 @@ body{
 /* left r styles */
 
 /* right r styles */
-.right-rectangle, h4:nth-child(1){
+.right-rectangle h4:nth-child(1){
     position: relative;
+    color: var(--dark-gray-blue);
     top: 1rem;
     font-size: 24px;
 }
@@ -232,6 +233,7 @@ body{
 /* right r styles */
 
 @media (max-width: 768px) {
+    
     .card__container{
         width: 375px;
         height: 809px;
@@ -268,5 +270,32 @@ body{
 
     .left-rectangle p{
         font-size: 16px;
+    }
+
+    .right-rectangle h4:nth-child(1){
+        position: relative;
+        color: var(--dark-gray-blue);
+        top: 1rem;
+        font-size: 18px;
+        margin: 0 2rem;
+    }
+
+    .scores__box{
+        position: relative;
+        left: 2rem;
+        width: 315px;
+        height: 56px;
+    }
+
+    .scores__box h4{
+        font-size: 16px;
+    }
+
+    .btn__C{
+        position: relative;
+        left: 1.9rem;
+        top: -1rem;
+        width: 315px;
+        height: 56px;
     }
 }
