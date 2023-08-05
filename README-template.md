@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Github]()
+- Solution URL: [Github](https://github.com/EAguayodev/Results-Summary-Component)
 - Live Site URL: [Vercel]()
 
 ## My process
@@ -50,13 +50,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS 
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
+- JSON
+- Desktop-first workflow
 - [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -91,7 +89,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [w3schools](https://www.w3schools.com/css/default.asp) - This resource helped me get a refresher on the basics of using css styles regarding to applying the styles to my container and main tags. This resource also helped when needing to refresh myself on using linear-gradient colors for the details on the left side of the card.
-- [github documentation]() - Github docs helped me understand and learn to fix SSH permissions denied when pushing my first commit to my new intialized repo for the challenge.
+- [github documentation](https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickey) - Github docs helped me understand and learn to fix SSH permissions denied when pushing my first commit to my new intialized repo for the challenge.
 
 
 ## Author
