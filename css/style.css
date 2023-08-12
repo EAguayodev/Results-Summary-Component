@@ -16,7 +16,7 @@
     --light-slate-blue-background: hsl(252, 100%, 67%);
     --light-royale-blue-background: hsl(241, 81%, 54%);
     --violet-blue-circle: hsla(256, 72%, 46%, 1);
-    --persian-blue-circle: hsla(241, 72%, 46%, 0);
+    --persian-blue-circle: hsla(241, 72%, 46%, 1);
     /* NEUTRAL */
     --white: hsl(0, 0%, 100%);
     --pale-blue: hsl(221, 100%, 96%);
@@ -66,7 +66,6 @@ body{
     font-size: 72px;
     font-style: normal;
     font-weight: 800;
-    /* line-height: 72px; */
 }
 
 .left-rectangle h3{
@@ -92,7 +91,6 @@ body{
     font-size: 18px;
     color: var(--light-blue, #CAC9FF);
     font-feature-settings: 'clig' off, 'liga' off;
-    /* Body (Bold) */
     font-family: Hanken Grotesk;
     font-size: 18px;
     font-style: normal;
@@ -104,7 +102,6 @@ body{
     font-size: 18px;
     color: var(--light-blue, #CAC9FF);
     font-feature-settings: 'clig' off, 'liga' off;
-    /* Body (Bold) */
     font-family: Hanken Grotesk;
     font-size: 18px;
     font-style: normal;
@@ -125,8 +122,13 @@ body{
     margin: 2rem 2rem;
 }
 
+.results__circle h1{
+    margin: 3rem 0;
+}
+
 .results__circle p{
     color: var(--light-blue);
+    margin-top: -3rem;
 }
 
 /* left r styles */
@@ -250,10 +252,16 @@ body{
     .results__circle{
         width: 140px;
         height: 140px;
+        margin: 0 4.5rem;
+    }
+
+    .results__circle h1{
+        margin: 2rem 0 0 0;
     }
 
     .results__circle p{
         font-size: 16px;
+        margin: 0.1rem 0 0 0;
     }
 
     .left-rectangle{
